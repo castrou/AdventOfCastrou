@@ -1,9 +1,8 @@
-add_executable(day1 
+add_executable(day2 
     src/main.cpp
-    src/dial.cpp
 )
 
-target_include_directories(day1 PRIVATE
+target_include_directories(day2 PRIVATE
                             "${CMAKE_CURRENT_SOURCE_DIR}/include"
                            )
 
